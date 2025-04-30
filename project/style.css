@@ -1,0 +1,109 @@
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    background-image: url(rsud.jpg);
+    background-size: cover;
+}
+.main-header {
+    background-color: #139522;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 24px;
+}
+.navbar {
+    background-color: #60cc2e;
+}
+.navbar ul {
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+    margin: 0;
+    list-style: none;
+}
+.navbar li {
+    margin: 0 15px;
+    padding: 0 25px;
+}
+.navbar a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+.hero {
+    font-size: larger;
+    text-align: center;
+    padding: 40px 20px;
+}
+.hero h2 {
+    display: inline-block;
+    background-color: #555;
+    color: #e6e6e6;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 40px 20px;
+    flex-wrap: wrap;
+}
+.box1{
+    background-color: white;
+    padding: 20px;
+    width: 600px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    text-align: center;
+
+}
+.box2 {
+    background-color: white;
+    padding: 20px;
+    width: 300px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    text-align: center;
+}
+.box h3 {
+    margin-top: 0;
+}
+.footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    font-size: 14px;
+}
+.logo-container {
+    text-align: center;
+    margin-top: 20px;
+    
+}
+.logo-container:hover{
+    transform: scale(1.15);
+    transition: 0.3s ease;
+    border-image: 2%;
+}
+
+.box1:hover {
+    background-color: rgb(191, 184, 184);
+    transform: scale(1.05);
+    transition: 0.3s ease;
+}
+
+.box2:hover {
+    background-color: rgb(191, 184, 184);
+    transform: scale(1.05);
+    transition: 0.3s ease;
+}
+
+.navbar li:hover{
+    transform: scale(1.05);
+    transition: 0.3s ease;
+}
+

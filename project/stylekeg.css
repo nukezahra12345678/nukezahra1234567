@@ -1,0 +1,154 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #e3f4e2;
+ 
+}
+.main-header {
+    background-color: #139522;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 24px;
+}
+.navbar {
+    background-color: #60cc2e;
+}
+.navbar ul {
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+    margin: 0;
+    list-style: none;
+}
+.navbar li {
+    margin: 0 15px;
+    padding: 5px 25px;
+    
+}
+.navbar a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+.content {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 40px 20px;
+    flex-wrap: wrap;
+}
+.box1{
+    background-color: white;
+    padding: 20px;
+    width: 400px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    text-align: center;
+
+}
+.box2 {
+    background-color: white;
+    padding: 20px;
+    width: 400px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+.box3{
+    background-color: white;
+    padding: 20px;
+    width: 400px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    text-align: center;
+
+}
+.box4 {
+    background-color: white;
+    padding: 20px;
+    width: 400px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+.box5{
+    background-color: white;
+    padding: 20px;
+    width: 400px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    text-align: center;
+
+}
+.box6 {
+    background-color: white;
+    padding: 20px;
+    width: 400px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+.box h3 {
+    margin-top: 0;
+}
+.box1:hover {
+    background-color: rgb(191, 184, 184);
+    transform: scale(1.05);
+    transition: 0.3s ease;
+}
+
+.box2:hover {
+    background-color: rgb(191, 184, 184);
+    transform: scale(1.05);
+    transition: 0.3s ease;
+}
+
+.box3:hover {
+    background-color: rgb(191, 184, 184);
+    transform: scale(1.05);
+    transition: 0.3s ease;
+}
+
+.box4:hover {
+    background-color: rgb(191, 184, 184);
+    transform: scale(1.05);
+    transition: 0.3s ease;
+}
+.box5:hover {
+    background-color: rgb(191, 184, 184);
+    transform: scale(1.05);
+    transition: 0.3s ease;
+}
+
+.box6:hover {
+    background-color: rgb(191, 184, 184);
+    transform: scale(1.05);
+    transition: 0.3s ease;
+}
+.navbar li:hover{
+    transform: scale(1.05);
+    transition: 0.3s ease;
+}
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 60px;
+    color: green;
+    text-align: center;
+}
+p{
+    text-align: center;
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+h5{
+    text-align: center;
+    font-size: larger;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    color: green;
+}
